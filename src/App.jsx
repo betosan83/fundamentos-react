@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 
+import IndiretaPai from './components/comunicacao/IndiretaPai'
 import DiretaPai from "./components/comunicacao/DiretaPai"
 import Card from './components/layout/Card'
 import Aleatorio from './components/basicos/Aleatorio'
@@ -19,6 +20,9 @@ export default _ =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+                <IndiretaPai></IndiretaPai>
+            </Card>
             <Card titulo="#9 - Comunicação Direta" color="#59323C">
                 <DiretaPai></DiretaPai>
             </Card>
